@@ -1,0 +1,150 @@
+.sortingContainer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 40px;
+margin-bottom: 10px;
+
+Link{
+
+}
+}
+.sorting{
+    display: flex;
+    align-items: center;
+}
+.sortingP{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 120px;
+    padding: 0;
+    margin: 0;
+}
+.pContainer{
+    margin-left: 20px;
+}
+.buttonContainer{
+    display: flex;
+}
+.buttonContainer button{
+    margin-left: 20px;
+    border: 2px solid rgb(59, 92, 176);
+    border-radius: 26px;
+    width: max-content;
+    padding: 6px 16px;
+}
+:global .catagoryButton{
+    font-size: larger;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.catagoryButton:hover{
+    background-color: rgb(245, 245, 245);
+}
+:global .activeButton{
+    background-color: rgb(255, 218, 250);
+    font-size: larger;
+}
+.searchKeywordContainer{
+    position: relative;
+    margin-right: 70px;
+}
+.searchKeyword{
+    margin-right: 30px;
+    width: 300px;
+    height: 35px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 17px;
+}
+.searchIcon{
+    position: absolute;
+    top: 7px;
+    right: 20px;
+    
+}
+.imagesContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.images{
+    margin: 15px;
+    width: 300px;
+    height: auto;
+}
+.imageContainer{
+    position: relative;
+}
+.imageContainer:hover{
+    transform: scale(1.07);
+    transition: 0.9s;
+}
+.imageContainer:hover .hoverButton {
+    opacity: 1;
+}
+.imageContainer:hover .hoverButton1{
+    opacity: 1;
+}
+.hoverButton1{
+    position: absolute;
+    top: 25px;
+    right: 65px;
+    opacity: 0;
+}
+.iconButton{
+    border: 1px solid rgb(255, 252, 252);
+    margin-left: 5px;
+    box-shadow: 1px white;
+    background-color: white;
+}
+#heartStyle{
+    color: gray ;
+}
+#eyeStyle{
+    color: gray;
+}
+.hoverButton{
+    position: absolute;
+    bottom: 25px;
+    left: 18%;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+.hoverButton:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+.cartButton{
+    border: 1px solid rgb(255, 252, 252);
+    box-shadow: 1px white;
+    width: 200px;
+    border-radius: 19px;
+    border-color: rgb(117, 116, 116);
+    background-color: white;
+}
+.activeCartButton{
+    background-color:rgb(221, 160, 219);
+    border-color: rgb(168, 158, 158);
+}
+.productinfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: larger;
+}
+
+
+
+/* .imageLink{
+    width: fit-content;
+    text-decoration: none!important;
+    background-color: none!important;
+}
+.imageLink:hover,
+.imageLink img:hover{
+    text-decoration: none;
+    background-color: none;
+} */
