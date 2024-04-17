@@ -33,7 +33,7 @@ const Product = (props: any) => {
         </div>
         <div className={styles.hoverButton}>
           <button onClick={() => addToCart(id)} className={`${styles.cartButton} ${active ? styles.activeCartButton : ''}`}>
-            Add to cart {cartItemAmount > 0 && `(${cartItemAmount})`}
+            Add to cart {cartItemAmount > 0 && <>({cartItemAmount})</>}
           </button>
         </div>
       </div>

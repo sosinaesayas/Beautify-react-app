@@ -1,0 +1,7 @@
+  {/* <div>
+          {Products.map((product)=>{
+            if (cartItems !== null && cartItems[product.id] !== 0) {
+              return <CartItem data={product} />;
+          }
+          })} 
+        </div> */}

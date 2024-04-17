@@ -12,7 +12,6 @@ import general10 from "../assets/general10.jpg"
 import { Link } from 'react-router-dom'
 import Products from './products'
 import Product from './product'
-// import { Link } from 'react-router-dom'
 
 const Shop = () => {
   const [active, setActive] = useState('')

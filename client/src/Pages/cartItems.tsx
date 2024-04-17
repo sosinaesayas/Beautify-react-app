@@ -1,15 +1,19 @@
 import React from 'react'
-import styles from "./shop.module.css"
-import { FaHeart } from 'react-icons/fa'
-import { FaEye } from 'react-icons/fa'
-import { ShopContext } from '../context/shopContext'
-
+import "./cartItems.css"
 const CartItem = (props:any) => {
+  const {id,productImage, productName, price} = props.data
+  return (
+    <div className='cartItems'>
     
-const { id, productName, price, productImage } = props.data;
- return (
-
-    <div>CartItem</div>
+      <img src={productImage}/>
+      <div className='description'>
+        <p>
+          {""}
+          <b>{productName}</b>
+        </p>
+        <p>{price}</p>
+      </div>
+    </div>
   )
 }
 
