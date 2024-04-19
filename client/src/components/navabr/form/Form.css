@@ -43,3 +43,41 @@ form{
 #button:active {
   color: white;
 }
+
+@media (max-width:768px){
+   #name{
+      width: 300px;
+      height: 40px;
+   }
+   #phone-number{
+       width: 300px;
+       height: 40px;
+    }
+    .form-control{
+       border-width: 1px;
+       border-color: rgb(203, 200, 200);
+    }
+    #email{
+       width: 300px;
+       height: 40px;
+    }
+   #subject{
+       width: 300px;
+       height: 40px;
+    }
+    #message{
+       width: 300px;
+       height: 130px;
+    }
+    #button{
+       width: 100px;
+       height: 40px;
+       margin-bottom: 20px;
+    }
+   
+   
+    #button:hover,
+   #button:active {
+     color: white;
+   }
+}

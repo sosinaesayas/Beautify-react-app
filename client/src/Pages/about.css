@@ -33,7 +33,6 @@
     font-size: 200x;
 }
 .p-container{
-    /* width: 1000px; */
     margin-left: 120px;
 }
 .fade-in-h1 {
@@ -79,9 +78,6 @@
   .about{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;*/
     align-items: center; 
     margin-left: 70px;
     margin-right: 70px;
@@ -134,10 +130,6 @@
  }
  .speech-container p{
     font-size: 20px;
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; */
  }
  .speech{
     font-size: 25px;
@@ -151,4 +143,30 @@
  .profession{
     font-weight: 100;
     padding:0 ;
+ }
+
+ @media (max-width:768px){
+  .cover-div{
+    width: 100%;
+    background-color: rgba(0,0,0,0.1);
+    height: 80vh;
+    position: relative;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.cover-div::before{
+    content: "";
+    background:url("/src/assets/cover-img.jpg");
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
  }

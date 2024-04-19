@@ -62,49 +62,49 @@ const Products = [
     id:1,
     productName: 'chatpstick',
     price: "2$",
-    productImage: women3 ,
+    productImage: women1 ,
   },
 
   {
     id:2,
     productName: 'chatpstick',
     price: "2$",
-    productImage: baby1 ,
+    productImage: baby3 ,
   },
 
   {
     id:3,
     productName: 'chatpstick',
     price: "2$",
-    productImage: featuredImage1 ,
+    productImage: featuredImage5 ,
   },
 
   {
     id:4,
     productName: 'chatpstick',
     price: "2$",
-    productImage: women1 ,
+    productImage: men3 ,
   },
 
   {
     id:5,
     productName: 'chatpstick',
     price: "2$",
-    productImage: men1 ,
+    productImage: men7 ,
   },
 
   {
     id:6,
     productName: 'chatpstick',
     price: "2$",
-    productImage: men3 ,
+    productImage: women3 ,
   },
 
   {
     id:7,
     productName: 'chatpstick',
     price: "2$",
-    productImage: baby3 ,
+    productImage: men4 ,
   },
 
   {
@@ -139,14 +139,14 @@ const Products = [
     id:12,
     productName: 'chatpstick',
     price: "2$",
-    productImage: men4 ,
+    productImage: men6 ,
   },
 
   {
     id:13,
     productName: 'chatpstick',
     price: "2$",
-    productImage: featuredImage3 ,
+    productImage: featuredImage6 ,
   },
 
   {
@@ -159,120 +159,120 @@ const Products = [
     id:15,
     productName: 'chatpstick',
     price: "2$",
-    productImage: featuredImage5 ,
+    productImage: women4 ,
   },
   {
     id:16,
-    productName: 'chatpstick',
-    price: "2$",
-    productImage: featuredImage6 ,
-  },
-
-  {
-    id:17,
-    productName: 'chatpstick',
-    price: "2$",
-    productImage: women4 ,
-  },
-
-  {
-    id:18,
-    productName: 'chatpstick',
-    price: "2$",
-    productImage: baby4 ,
-  },
-
-  {
-    id:19,
-    productName: 'chatpstick',
-    price: "2$",
-    productImage: featuredImage4 ,
-  },
-
-  {
-    id:20,
     productName: 'chatpstick',
     price: "2$",
     productImage: women5 ,
   },
 
   {
-    id:21,
-    productName: 'chatpstick',
-    price: "2$",
-    productImage: men6 ,
-  },
-
-  {
-    id:22,
-    productName: 'chatpstick',
-    price: "2$",
-    productImage: men7 ,
-  },
-
-  {
-    id:23,
-    productName: 'chatpstick',
-    price: "2$",
-    productImage: baby5,
-  },
-
-  {
-    id:24,
-    productName: 'chatpstick',
-    price: "2$",
-    productImage: men8 ,
-  },
-
-  {
-    id:25,
-    productName: 'chatpstick',
-    price: "2$",
-    productImage: men9 ,
-  },
-
-  {
-    id:26,
-    productName: 'chatpstick',
-    price: "2$",
-    productImage: women6 ,
-  },
-
-  {
-    id:27,
-    productName: 'chatpstick',
-    price: "2$",
-    productImage: featuredImage6 ,
-  },
-
-  {
-    id:28,
-    productName: 'chatpstick',
-    price: "2$",
-    productImage: men11 ,
-  },
-
-  {
-    id:29,
+    id:17,
     productName: 'chatpstick',
     price: "2$",
     productImage: baby7 ,
   },
 
   {
-    id:30,
+    id:18,
     productName: 'chatpstick',
     price: "2$",
-    productImage: baby8 ,
+    productImage: baby5 ,
+  },
+
+  {
+    id:19,
+    productName: 'chatpstick',
+    price: "2$",
+    productImage: baby8,
+  },
+
+  {
+    id:20,
+    productName: 'chatpstick',
+    price: "2$",
+    productImage: men11 ,
+  },
+
+  // {
+  //   id:21,
+  //   productName: 'chatpstick',
+  //   price: "2$",
+  //   productImage: men6 ,
+  // },
+
+  // {
+  //   id:22,
+  //   productName: 'chatpstick',
+  //   price: "2$",
+  //   productImage: men7 ,
+  // },
+
+  // {
+  //   id:23,
+  //   productName: 'chatpstick',
+  //   price: "2$",
+  //   productImage: baby5,
+  // },
+
+  // {
+  //   id:24,
+  //   productName: 'chatpstick',
+  //   price: "2$",
+  //   productImage: men8 ,
+  // },
+
+  // {
+  //   id:25,
+  //   productName: 'chatpstick',
+  //   price: "2$",
+  //   productImage: men9 ,
+  // },
+
+  // {
+  //   id:26,
+  //   productName: 'chatpstick',
+  //   price: "2$",
+  //   productImage: women6 ,
+  // },
+
+  // {
+  //   id:27,
+  //   productName: 'chatpstick',
+  //   price: "2$",
+  //   productImage: featuredImage6 ,
+  // },
+
+  // {
+  //   id:28,
+  //   productName: 'chatpstick',
+  //   price: "2$",
+  //   productImage: men11 ,
+  // },
+
+  {
+    id:21,
+    productName: 'chatpstick',
+    price: "2$",
+    productImage: women15 ,
+  },
+
+  {
+    id:22,
+    productName: 'chatpstick',
+    price: "2$",
+    productImage: women9 ,
   },
   {
-    id:31,
+    id:23,
     productName: 'chatpstick',
     price: "2$",
     productImage: women16 ,
   },
   {
-    id:32,
+    id:24,
     productName: 'chatpstick',
     price: "2$",
     productImage: women11 ,

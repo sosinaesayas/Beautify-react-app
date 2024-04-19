@@ -10,8 +10,8 @@ import general5 from "../assets/general5.jpg"
 import general9 from "../assets/general9.jpg"
 import general10 from "../assets/general10.jpg"
 import { Link } from 'react-router-dom'
-
-
+import Products from './products'
+import Product from './product'
 
 const Pages = () => {
   const [active, setActive] = useState('')
@@ -31,7 +31,7 @@ const Pages = () => {
               <button onClick={()=>changeHandler('man')}  className = {active === "man" ?  "activeButton" : "catagoryButton"}>Man</button>
               <button onClick={()=>changeHandler('kids')}  className = {active === "kids" ?  "activeButton" : "catagoryButton"}>Kids</button>
               <button onClick={()=>changeHandler('jewellery')}  className = {active === "jewellery" ?  "activeButton" : "catagoryButton"}>Jewellery</button>
-          </div>
+         </div>
          
         </div>
         
@@ -41,143 +41,8 @@ const Pages = () => {
         </div>
         </div>
 
-
-        <div className={styles.imagesContainer}>
-        <div className={styles.imageContainer}>
-           {/* <Link className='imageLink' to="/products"></Link> */}
-           <img className={styles.images} src={general1} alt="cosmetics" />
-            <div className={styles.hoverButton1}>
-              <button className={styles.iconButton}><FaHeart id='heart-style' /></button>
-              <button className={styles.iconButton}><FaEye id='eye-style'/></button>
-            </div>
-            <div className={styles.hoverButton}>
-                <button className={styles.cartButton}>Add to cart</button>
-            </div>
-          </div>
-
-          <div className={styles.imageContainer}>
-          <img className={styles.images} src={general3} alt="cosmetics" />
-          <div className={styles.hoverButton1}>
-            <button className={styles.iconButton}><FaHeart id='heart-style' /></button>
-            <button className={styles.iconButton}><FaEye id='eye-style'/></button>
-            </div>
-            <div className={styles.hoverButton}>
-                <button className={styles.cartButton}>Add to cart</button>
-            </div>
-          </div>
-
-          <div className={styles.imageContainer}>
-            <img className={styles.images} src={general1} alt="cosmetics" />
-            <div className={styles.hoverButton1}>
-              <button className={styles.iconButton}><FaHeart id='heart-style' /></button>
-              <button className={styles.iconButton}><FaEye id='eye-style'/></button>
-            </div>
-            <div className={styles.hoverButton}>
-                <button className={styles.cartButton}>Add to cart</button>
-            </div>
-          </div>
-
-          <div className={styles.imageContainer}>
-            <img className={styles.images} src={general4} alt="cosmetics" />
-            <div className={styles.hoverButton1}>
-              <button className={styles.iconButton}><FaHeart id='heart-style' /></button>
-              <button className={styles.iconButton}><FaEye id='eye-style'/></button>
-            </div>
-            <div className={styles.hoverButton}>
-                <button className={styles.cartButton}>Add to cart</button>
-            </div>
-          </div>
-
-          <div className={styles.imageContainer}>
-            <img className={styles.images} src={general5} alt="cosmetics" />
-            <div className={styles.hoverButton1}>
-              <button className={styles.iconButton}><FaHeart id='heart-style' /></button>
-              <button className={styles.iconButton}><FaEye id='eye-style'/></button>
-            </div>
-            <div className={styles.hoverButton}>
-                <button className={styles.cartButton}>Add to cart</button>
-            </div>
-          </div>
-
-          <div className={styles.imageContainer}>
-            <img className={styles.images} src={general4} alt="cosmetics" />
-            <div className={styles.hoverButton1}>
-              <button className={styles.iconButton}><FaHeart id='heart-style' /></button>
-              <button className={styles.iconButton}><FaEye id='eye-style'/></button>
-            </div>
-            <div className={styles.hoverButton}>
-                <button className={styles.cartButton}>Add to cart</button>
-            </div>
-          </div>
-            
-          <div className={styles.imageContainer}>
-            <img className={styles.images} src={general3} alt="cosmetics" />
-            <div className={styles.hoverButton1}>
-              <button className={styles.iconButton}><FaHeart id='heart-style' /></button>
-              <button className={styles.iconButton}><FaEye id='eye-style'/></button>
-            </div>
-            <div className={styles.hoverButton}>
-                <button className={styles.cartButton}>Add to cart</button>
-            </div>
-          </div>
-          
-          <div className={styles.imageContainer}>
-            <img className={styles.images} src={general3} alt="cosmetics" />
-            <div className={styles.hoverButton1}>
-              <button className={styles.iconButton}><FaHeart id='heart-style' /></button>
-              <button className={styles.iconButton}><FaEye id='eye-style'/></button>
-            </div>
-            <div className={styles.hoverButton}>
-                <button className={styles.cartButton}>Add to cart</button>
-            </div>
-          </div>
-           
-          <div className={styles.imageContainer}>
-            <img className={styles.images} src={general9} alt="cosmetics" />
-            <div className={styles.hoverButton1}>
-              <button className={styles.iconButton}><FaHeart id='heart-style' /></button>
-              <button className={styles.iconButton}><FaEye id='eye-style'/></button>
-            </div>
-            <div className={styles.hoverButton}>
-                <button className={styles.cartButton}>Add to cart</button>
-            </div>
-          </div>
-
-          <div className={styles.imageContainer}>
-            <img className={styles.images} src={general10} alt="cosmetics" />
-            <div className={styles.hoverButton1}>
-              <button className={styles.iconButton}><FaHeart id='heart-style' /></button>
-              <button className={styles.iconButton}><FaEye id='eye-style'/></button>
-            </div>
-            <div className={styles.hoverButton}>
-                <button className={styles.cartButton}>Add to cart</button>
-            </div>
-          </div>
-
-          <div className={styles.imageContainer}>
-            <img className={styles.images} src={general9} alt="cosmetics" />
-            <div className={styles.hoverButton1}>
-              <button className={styles.iconButton}><FaHeart id='heart-style' /></button>
-              <button className={styles.iconButton}><FaEye id='eye-style'/></button>
-            </div>
-            <div className={styles.hoverButton}>
-                <button className={styles.cartButton}>Add to cart</button>
-            </div>
-          </div>
-          <div className={styles.imageContainer}>
-            <img className={styles.images} src={general10} alt="cosmetics" />
-            <div className={styles.hoverButton1}>
-              <button className={styles.iconButton}><FaHeart id='heart-style' /></button>
-              <button className={styles.iconButton}><FaEye id='eye-style'/></button>
-            </div>
-            <div className={styles.hoverButton}>
-                <button className={styles.cartButton}>Add to cart</button>
-            </div>
-          </div>
-        
-        </div>
-        
-
+        <div className={styles.imagesContainer}> {Products.map((product)=>
+            <Product data = {product}/>)}</div>
     </div>
   )
 }

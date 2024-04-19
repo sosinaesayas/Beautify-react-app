@@ -10,7 +10,6 @@ import "./blog.css";
 
 
 const Blog = () => {
-  // needs a useState here
   return (
     <div className='blog-overall'>
        <div className='blog-first'>
@@ -25,9 +24,9 @@ const Blog = () => {
                   <p className='phone-number'>+2518536677</p>
                   <p className='available-time'>from 2:00 to 12:00 every day</p>
               </div>
-         </div>
-        
+         </div> 
        </div>
+       
       <div className='blog-layout'>
         
           <div className='blog-body'>

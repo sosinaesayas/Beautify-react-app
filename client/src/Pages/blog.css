@@ -146,6 +146,39 @@
 .arrow-icon{
     font-weight: 100;
     margin-left:8px;
-    color: rgb(83, 82, 82);
+    color: #535252;
     transition: color 0.3s;transition: color 0.3s;
+}
+
+
+@media (max-width : 768px){
+   .blog-first{
+    display: flex;
+    flex-direction: column;
+   }
+   .phone{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .phone-icon{
+    /* display: flex; */
+    display: inline;
+    justify-content: center;
+    align-items: center;
+   }
+   .phone-p{
+    /* display: flex; */
+    display: inline;
+    justify-content: center;
+    align-items: center;
+   }
+   .blog-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+  
 }

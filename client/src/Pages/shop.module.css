@@ -5,9 +5,6 @@ align-items: center;
 margin-top: 40px;
 margin-bottom: 10px;
 
-Link{
-
-}
 }
 .sorting{
     display: flex;
@@ -138,13 +135,29 @@ Link{
 
 
 
-/* .imageLink{
-    width: fit-content;
-    text-decoration: none!important;
-    background-color: none!important;
+@media (max-width:768px ){
+   .sortingContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   } 
+   .searchKeywordContainer{
+    margin-left: 100px;
+    margin-top: 30px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+   }
+   /* .searchKeyword{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   } */
+   .imagesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
 }
-.imageLink:hover,
-.imageLink img:hover{
-    text-decoration: none;
-    background-color: none;
-} */
