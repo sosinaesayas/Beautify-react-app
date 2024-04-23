@@ -60,132 +60,132 @@ import women16 from "../assets/women/photo_2024-04-06_22-10-37.jpg"
 const Products = [
   {
     id:1,
-    productName: 'chatpstick',
-    price: "2$",
+    productName: `GLoria Vandet's white hills` ,
+    price: "$25",
     productImage: women1 ,
   },
 
   {
     id:2,
-    productName: 'chatpstick',
-    price: "2$",
+    productName: `New Air force men's and baby's shoes  `,
+    price: "$20",
     productImage: baby3 ,
   },
 
   {
     id:3,
-    productName: 'chatpstick',
-    price: "2$",
+    productName: 'Estee Lalder nail polish',
+    price: "$5",
     productImage: featuredImage5 ,
   },
 
   {
     id:4,
-    productName: 'chatpstick',
-    price: "2$",
+    productName: 'Classic Comfort Hoodie',
+    price: "$48",
     productImage: men3 ,
   },
 
   {
     id:5,
-    productName: 'chatpstick',
-    price: "2$",
+    productName: 'Classic Comfort Hoodie',
+    price: "$36",
     productImage: men7 ,
   },
 
   {
     id:6,
-    productName: 'chatpstick',
-    price: "2$",
+    productName: `HilltopGlam Women's High-Heel Shoes`,
+    price: "$83",
     productImage: women3 ,
   },
 
   {
     id:7,
-    productName: 'chatpstick',
-    price: "2$",
+    productName: `PeakProtect men's All-Weather Jacket`,
+    price: '$57',
     productImage: men4 ,
   },
 
   {
     id:8,
-    productName: 'chatpstick',
-    price: "2$",
+    productName: `UrbanEdge Men's Leather Carryall`,
+    price: "$12",
     productImage: men1 ,
   },
 
   {
     id:9,
-    productName: 'chatpstick',
-    price: "2$",
+    productName: `Zapa Men's perfume`,
+    price: "$6",
     productImage: men2 ,
   },
 
   {
     id:10,
-    productName: 'chatpstick',
-    price: "2$",
+    productName: `ChicEssence Women's Leather Tote`,
+    price: "$15",
     productImage: women2 ,
   },
 
   {
     id:11,
-    productName: 'chatpstick',
-    price: "2$",
+    productName: 'MoistureMax Lip Balm',
+    price: "$4",
     productImage: featuredImage3 ,
   },
 
   {
     id:12,
-    productName: 'chatpstick',
-    price: "2$",
+    productName: 'AdventurePro Backcountry Backpack',
+    price: "$13",
     productImage: men6 ,
   },
 
   {
     id:13,
-    productName: 'chatpstick',
-    price: "2$",
+    productName: 'ProtectiveShield Lip Balm',
+    price: "$6",
     productImage: featuredImage6 ,
   },
 
   {
     id:14,
-    productName: 'chatpstick',
-    price: "2$",
+    productName: 'UltraRepair Lip Balm',
+    price: "5$",
     productImage: featuredImage4 ,
   },
   {
     id:15,
-    productName: 'chatpstick',
-    price: "2$",
+    productName: `SummitStrut Women's Hill-Formed Heels`,
+    price: "$28",
     productImage: women4 ,
   },
   {
     id:16,
-    productName: 'chatpstick',
-    price: "2$",
+    productName: `FashionistaFinesse Women's Leather Hobo Bag`,
+    price: "$14",
     productImage: women5 ,
   },
 
   {
     id:17,
-    productName: 'chatpstick',
-    price: "2$",
+    productName: 'JoyfulTwirl Baby Peplum',
+    price: "$10",
     productImage: baby7 ,
   },
 
   {
     id:18,
-    productName: 'chatpstick',
-    price: "2$",
+    productName: 'TinyComfort Baby Tee',
+    price: "$12",
     productImage: baby5 ,
   },
 
   {
     id:19,
-    productName: 'chatpstick',
-    price: "2$",
+    productName: 'TinyExplorer Toddler Jacket',
+    price: "$13",
     productImage: baby8,
   },
 
@@ -195,62 +195,6 @@ const Products = [
     price: "2$",
     productImage: men11 ,
   },
-
-  // {
-  //   id:21,
-  //   productName: 'chatpstick',
-  //   price: "2$",
-  //   productImage: men6 ,
-  // },
-
-  // {
-  //   id:22,
-  //   productName: 'chatpstick',
-  //   price: "2$",
-  //   productImage: men7 ,
-  // },
-
-  // {
-  //   id:23,
-  //   productName: 'chatpstick',
-  //   price: "2$",
-  //   productImage: baby5,
-  // },
-
-  // {
-  //   id:24,
-  //   productName: 'chatpstick',
-  //   price: "2$",
-  //   productImage: men8 ,
-  // },
-
-  // {
-  //   id:25,
-  //   productName: 'chatpstick',
-  //   price: "2$",
-  //   productImage: men9 ,
-  // },
-
-  // {
-  //   id:26,
-  //   productName: 'chatpstick',
-  //   price: "2$",
-  //   productImage: women6 ,
-  // },
-
-  // {
-  //   id:27,
-  //   productName: 'chatpstick',
-  //   price: "2$",
-  //   productImage: featuredImage6 ,
-  // },
-
-  // {
-  //   id:28,
-  //   productName: 'chatpstick',
-  //   price: "2$",
-  //   productImage: men11 ,
-  // },
 
   {
     id:21,
